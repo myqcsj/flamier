@@ -18,8 +18,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@flamier/std-ui-react": [
-        "libs/std-ui-react/src/index.ts"
+      "@flamier/react-std-ui": [
+        "libs/react/std-ui/src/index.ts"
       ]
     }
   },
