@@ -1,7 +1,7 @@
 {
-  "name": "react-std-ui",
+  "name": "flameui-ui-react-webstd",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "libs/react/std-ui/src",
+  "sourceRoot": "libs/flameui/ui-react-webstd/src",
   "projectType": "library",
   "tags": [],
   "targets": {
@@ -12,7 +12,7 @@
       ],
       "options": {
         "lintFilePatterns": [
-          "libs/react/std-ui/**/*.{ts,tsx,js,jsx}"
+          "libs/flameui/ui-react-webstd/**/*.{ts,tsx,js,jsx}"
         ]
       }
     },
@@ -23,7 +23,7 @@
       ],
       "defaultConfiguration": "production",
       "options": {
-        "outputPath": "dist/libs/react/std-ui"
+        "outputPath": "dist/libs/flameui/ui-react-webstd"
       },
       "configurations": {
         "development": {
@@ -40,7 +40,7 @@
         "{workspaceRoot}/coverage/{projectRoot}"
       ],
       "options": {
-        "jestConfig": "libs/react/std-ui/jest.config.ts",
+        "jestConfig": "libs/flameui/ui-react-webstd/jest.config.ts",
         "passWithNoTests": true
       },
       "configurations": {
