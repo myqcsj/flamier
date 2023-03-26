@@ -1,1 +1,1 @@
-export * from './lib/flameui-ui-react-webstd';
+export * from './lib/header/header';
