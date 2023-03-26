@@ -1,4 +1,4 @@
-import type { Meta } from '@storybook/react';
+import type { Meta, StoryObj } from '@storybook/react';
 import { Header } from './header';
 
 const Story: Meta<typeof Header> = {
@@ -7,6 +7,6 @@ const Story: Meta<typeof Header> = {
 };
 export default Story;
 
-export const Primary = {
+export const Primary: StoryObj<typeof Header> = {
   args: {},
 };
