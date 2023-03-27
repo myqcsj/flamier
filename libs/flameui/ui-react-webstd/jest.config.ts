@@ -1,4 +1,3 @@
-/* eslint-disable */
 export default {
   displayName: 'flameui-ui-react-webstd',
   preset: '../../../jest.preset.js',
@@ -8,4 +7,5 @@ export default {
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
   coverageDirectory: '../../../coverage/libs/flameui/ui-react-webstd',
+  setupFilesAfterEnv: ['<rootDir>/jest-setup.ts']
 };
